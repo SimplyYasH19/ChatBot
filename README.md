@@ -53,7 +53,6 @@ The focus is on:
 
 
 ⚙️ How It Works:
-
   1. User types a message in the web interface.
   2. The Flask backend receives the message.
   3. The message is converted into tokens and padded.  
