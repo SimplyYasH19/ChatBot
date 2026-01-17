@@ -11,26 +11,26 @@ The application runs locally on a laptop using a Flask web server and provides a
 📌 Project Overview
 The goal of this project is to demonstrate an end-to-end NLP-based chatbot system, starting from intent dataset creation and preprocessing to model training and real-time interaction through a web application.
 The focus is on:
-    1.Applying NLP techniques for text processing
-    2.Training a neural network for intent classification
-    3.Combining ML-based responses with online knowledge (Wikipedia)
-    4.Converting a console-based chatbot into a web application
+1.Applying NLP techniques for text processing
+2.Training a neural network for intent classification
+3.Combining ML-based responses with online knowledge (Wikipedia)
+4.Converting a console-based chatbot into a web application
 
 
 ✨ Features
-    1.Web-based chat interface using HTML, CSS, and JavaScript
-    2.Intent-based responses using a trained ML model
-    3.Supports greetings, help, company info etc. 
-    4.Automatically fetches answers from Wikipedia for unknown questions
-    5.Runs completely on a local machine
-    6.Can be exposed to the internet temporarily using ngrok for demo
+1.Web-based chat interface using HTML, CSS, and JavaScript
+2.Intent-based responses using a trained ML model
+3.Supports greetings, help, company info etc. 
+4.Automatically fetches answers from Wikipedia for unknown questions
+5.Runs completely on a local machine
+6.Can be exposed to the internet temporarily using ngrok for demo
 
 
 📚 Dataset
-  1.The project uses a custom JSON-based intents dataset (intents.json) containing:
-  2.Intent tags  
-  3.Example user patterns
-  4.Predefined responses
+1.The project uses a custom JSON-based intents dataset (intents.json) containing:
+2.Intent tags  
+3.Example user patterns
+4.Predefined responses
 
 
 🧰 Tech Stack
