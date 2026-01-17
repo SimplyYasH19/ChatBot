@@ -1,0 +1,152 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello",
+                "Hay",
+                "Good morning",
+                "Good evening"
+            ],
+            "responses": [
+                "Hello!",
+                "Hi there!",
+                "Greetings! How can I help you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "See you",
+                "Exit"
+            ],
+            "responses": [
+                "See you later!",
+                "Have a nice day!",
+                "Bye! Come back soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help",
+                "Thanks a lot"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Who are you?",
+                "What are you?",
+                "Who you are?",
+                "What do you do?"
+            ],
+            "responses": [
+                "I'm noah, your personal assistant.",
+                "I\u2019m a chatbot to help you with your questions."
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name",
+                "What should I call you",
+                "What's your name?"
+            ],
+            "responses": [
+                "You can call me noah.",
+                "I'm noah!",
+                "Just call me noah."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Can you help me?",
+                "I need assistance",
+                "I need help",
+                "Support me please",
+                "Help me"
+            ],
+            "responses": [
+                "Sure, tell me your problem.",
+                "Yes, please describe the issue."
+            ]
+        },
+        {
+            "tag": "how_are_you",
+            "patterns": [
+                "How are you?",
+                "How are you doing?",
+                "Are you fine?"
+            ],
+            "responses": [
+                "I'm doing great! How can I help you?",
+                "I'm fine. Thanks for asking!"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell me a joke",
+                "Make me laugh",
+                "Say something funny"
+            ],
+            "responses": [
+                "Why don't programmers like nature? It has too many bugs \ud83d\ude04",
+                "I would tell you a joke about Python, but it's already scripted."
+            ]
+        },
+        {
+            "tag": "google_info",
+            "patterns": [
+                "What is Google?",
+                "Tell me about Google",
+                "Google?",
+                "google?",
+                "Explain Google",
+                "Give me info about Google"
+            ],
+            "responses": [
+                "Google is a multinational technology company specializing in internet-related services and products.",
+                "Google is best known as a search engine, but it also develops software, hardware, and cloud computing services."
+            ]
+        },
+        {
+            "tag": "skf_info",
+            "patterns": [
+                "What is SKF?",
+                "Tell me about SKF",
+                "SKF",
+                "skf",
+                "Explain SKF",
+                "Give me info about SKF"
+            ],
+            "responses": [
+                "SKF is a global engineering company known for bearings, seals, lubrication systems, and industrial services.",
+                "SKF is a multinational company that mainly works in bearing manufacturing and mechanical engineering solutions."
+            ]
+        },
+        {
+            "tag": "unknown",
+            "patterns": [],
+            "responses": [
+                "I'm sorry, I don't understand your question. Could you please rephrase?"
+            ]
+        }
+    ]
+}
